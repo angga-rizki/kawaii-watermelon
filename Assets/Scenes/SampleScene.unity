@@ -172,7 +172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427396d284b70da4eaf79c5540333ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitPrefab: {fileID: 7389299598906843458, guid: a8ac2c3c8bb182d439ab36124b8a326b, type: 3}
+  fruitPrefabs:
+  - {fileID: 7389299598906843458, guid: a8ac2c3c8bb182d439ab36124b8a326b, type: 3}
+  - {fileID: 7389299598906843458, guid: 807d58886f3eb5846a566a0a5a571110, type: 3}
+  - {fileID: 7389299598906843458, guid: 465b35f0ae13d624da1eb157d6701f8f, type: 3}
   fruitSpawnLine: {fileID: 410875032}
   fruitSpawnPosY: 3.5
   enableGizmo: 1

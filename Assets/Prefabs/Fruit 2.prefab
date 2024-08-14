@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 2207565670931390677}
   - component: {fileID: 2207565670931390698}
   - component: {fileID: 7389299598906843458}
+  - component: {fileID: 9038711487544378604}
   m_Layer: 0
-  m_Name: Fruit
+  m_Name: Fruit 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,6 +84,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c22841e872c68344e96ab2f9813d10fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &9038711487544378604
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207565670931390679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 14ccb4cac44c48b4fae1e81d5ffbf6f8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2207565672230656718
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +175,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.9716981, g: 0.6813763, b: 0.28875935, a: 1}
+  m_Color: {r: 0.990566, g: 0.75461656, b: 0.22895159, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
